@@ -5,8 +5,8 @@
 ## Документы
 
 - [Краткое руководство: запуск веб-сервера на Python](quick-start.md)
-- [Инструкция пользователя (будет добавлена)](user-guide.md)
-- [README для GitHub-проекта (будет добавлен)](readme-example.md)
+- [Инструкция пользователя](user-guide.md)
+- [README для GitHub-проекта](readme-example.md)
 
 ## Контакты
 - GitHub: https://github.com/Rainbow888888
