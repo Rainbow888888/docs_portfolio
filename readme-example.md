@@ -19,3 +19,71 @@
 ```bash
 git clone https://github.com/ваш_ник/csv-to-json-converter
 cd csv-to-json-converter
+
+## Использование
+
+Базовый запуск:
+
+`bash
+python converter.py --input data.csv --output data.json
+`
+
+## Параметры
+
+| Параметр | Описание | Обязательный |
+|----------|----------|--------------|
+| `--input` | Путь к CSV-файлу | Да |
+| `--output` | Путь для JSON-файла | Да |
+| `--delimiter` | Разделитель (по умолчанию `,`) | Нет |
+| `--encoding` | Кодировка (по умолчанию `utf-8`) | Нет |
+
+## Пример
+
+**Входной файл `employees.csv`:**
+
+`csv
+name,position,salary
+Анна Иванова,Разработчик,120000
+Пётр Петров,Тестировщик,90000
+`
+
+## Команда
+
+`bash
+python converter.py --input employees.csv --output employees.json --delimiter ","
+`
+
+## Результат
+
+`json
+[
+  {
+    "name": "Анна Иванова",
+    "position": "Разработчик",
+    "salary": "120000"
+  },
+  {
+    "name": "Пётр Петров",
+    "position": "Тестировщик",
+    "salary": "90000"
+  }
+]
+`
+
+## Частые ошибки
+
+**Ошибка:** `File not found: data.csv`
+
+**Решение:** Проверьте, что файл находится в той же папке, что и скрипт, или укажите полный путь.
+
+**Ошибка:** `UnicodeDecodeError`
+
+**Решение:** Добавьте параметр кодировки: `--encoding cp1251` (для Windows-файлов)
+
+## Лицензия
+
+MIT — можно использовать в любых проектах.
+
+## Автор
+
+[Ваше Имя] — [ссылка на GitHub]
