@@ -16,7 +16,7 @@
 
 ## Установка
 
-```bash
+`bash
 git clone https://github.com/ваш_ник/csv-to-json-converter
 cd csv-to-json-converter
 
