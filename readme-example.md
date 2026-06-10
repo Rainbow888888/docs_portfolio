@@ -86,4 +86,4 @@ MIT — можно использовать в любых проектах.
 
 ## Автор
 
-[Ваше Имя] — [ссылка на GitHub]
+Andrianov Oleg — https://github.com/Rainbow888888
