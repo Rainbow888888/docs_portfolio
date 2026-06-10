@@ -41,11 +41,11 @@ python converter.py --input data.csv --output data.json
 
 **Входной файл `employees.csv`:**
 
-`csv
+```csv
 name,position,salary
 Анна Иванова,Разработчик,120000
 Пётр Петров,Тестировщик,90000
-`
+```
 
 ## Команда
 
@@ -55,7 +55,7 @@ python converter.py --input employees.csv --output employees.json --delimiter ",
 
 ## Результат
 
-`json
+```json
 [
   {
     "name": "Анна Иванова",
@@ -68,7 +68,7 @@ python converter.py --input employees.csv --output employees.json --delimiter ",
     "salary": "90000"
   }
 ]
-`
+```
 
 ## Частые ошибки
 
